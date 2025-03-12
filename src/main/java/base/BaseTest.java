@@ -31,8 +31,8 @@ public class BaseTest {
 	@AfterSuite
 	public void teardownReport() {
 		extent.flush();
-		String reportPath = ExtentReportManager.reportPath;
-		EmailUtils.sendTestReport(reportPath);
+		//String reportPath = ExtentReportManager.reportPath;
+		//EmailUtils.sendTestReport(reportPath);
 	}
 	
 	@BeforeMethod
